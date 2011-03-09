@@ -2,6 +2,7 @@
 <html>
 <head>
     <!-- Style copied from Chrome to Phone -->
+    <!-- The original code and design was copied from https://bitbucket.org/anders/chrome-prowl -->
     <script src="prowl.js"></script>
     <style type="text/css">
         body
@@ -67,13 +68,12 @@
             <td width="100%" valign="middle">
                 <b>
                     <div id="msg">
-                        A message.
                     </div>
                 </b>
                 <div id="inputs">
                     <div>
                         <input type="text" id="urlid" />
-                        <input type="button" onclick="sendURL()" value="Send this page's URL" />
+                        <input type="button" onclick="sendURL()" value="Send the above URL" />
                     </div>
                     <div>
                         <textarea id="freetext"></textarea>

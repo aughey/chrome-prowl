@@ -7,7 +7,7 @@
         ],
    "browser_action": {
       "default_icon": "icon19.png",
-      "default_title": "Aughey Prowl",
+      "default_title": "Prowl",
       "default_popup": "popup.html"
    },
    "description": "Sends a link to the currently visited page as a push notification to your iPhone or iPod Touch.",
@@ -15,12 +15,10 @@
       "128": "icon128.png",
       "96": "icon96.png"
    },
-   "name": "Prowl Aughey",
+   "name": "Prowl",
    "options_page": "options.html",
    "background_page": "background.html",
    "permissions": [
-                "http://delicious.com/*",
-                "http://feeds.delicious.com/*",
                 "tabs",
                 "http://*/",
                 "https://*/"
